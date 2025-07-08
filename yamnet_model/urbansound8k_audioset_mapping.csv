@@ -1,0 +1,191 @@
+UrbanSound8K_class,UrbanSound8K_classID,AudioSet_label_name,AudioSet_label_id,note
+air_conditioner,0,Air conditioning,/m/0v3xy,associazione_diretta
+car_horn,1,Car horn,/m/02zsn,associazione_diretta
+car_horn,1,Toot,/m/07qv_d5,associazione_per_similitudine
+children_playing,2,Children shouting,/t/dd00135,associazione_per_esclusione
+children_playing,2,Children playing,/t/dd00013,associazione_per_esclusione
+children_playing,2,Laughter,/m/01j3sz,associazione_per_esclusione
+children_playing,2,Baby laughter,/t/dd00001,associazione_per_esclusione
+children_playing,2,Giggle,/m/07r660_,associazione_per_esclusione
+children_playing,2,Belly laugh,/m/07sq110,associazione_per_esclusione
+children_playing,2,"Child speech, kid speaking",/m/0ytgt,associazione_per_similitudine
+children_playing,2,Speech,/m/09x0r,associazione_per_similitudine
+dog_bark,3,Bark,/m/084zz,associazione_diretta
+dog_bark,3,Whimper (dog),/t/dd00136,associazione_per_similitudine
+dog_bark,3,Yip,/m/07r_k2n,associazione_per_similitudine
+dog_bark,3,Howl,/m/07qf0zm,associazione_per_similitudine
+dog_bark,3,Animal,/m/0jbk,associazione_per_esclusione
+dog_bark,3,"Domestic animals, pets",/m/068hy,associazione_per_esclusione
+dog_bark,3,Dog,/m/0bt9lr,associazione_per_esclusione
+drilling,4,Tools,/m/01xyhv,associazione_per_esclusione
+engine_idling,5,Vehicle engine idling,/m/07rwj,associazione_diretta
+engine_idling,5,Car passing by,/t/dd00134,associazione_diretta
+engine_idling,5,Vehicle,/m/07yv9,associazione_per_esclusione
+engine_idling,5,"Boat, Water vehicle",/m/019jd,associazione_per_esclusione
+engine_idling,5,Engine,/m/02mk9,associazione_per_similitudine
+engine_idling,5,Motor vehicle (road),/m/012f08,associazione_per_similitudine
+engine_idling,5,Car,/m/0k4j,associazione_per_esclusione
+engine_idling,5,Idling,/m/07pb8fc,associazione_per_esclusione
+engine_idling,5,Engine starting,/t/dd00130,associazione_per_similitudine
+gun_shot,6,Explosion,/m/014zdl,associazione_diretta
+gun_shot,6,"Gunshot, gunfire",/m/03xxp,associazione_diretta
+gun_shot,6,Machine gun,/m/04zjc,associazione_per_esclusione
+jackhammer,7,Jackhammer,/m/01bqvp,associazione_diretta
+jackhammer,7,Engine knocking,/m/01h82_,associazione_per_similitudine
+jackhammer,7,Vibration,/m/01jwx6_,associazione_per_similitudine
+siren,8,Siren,/m/03kmc9,associazione_diretta
+siren,8,Fire alarm,/m/0c3f7m,associazione_diretta
+siren,8,Smoke detector,/m/01y3hg,associazione_diretta
+siren,8,Police car (siren),/m/04qvtq,associazione_per_esclusione
+siren,8,Emergency vehicle,/m/03j1ly,associazione_per_esclusione
+siren,8,Alarm,/m/07pp_mv,associazione_per_esclusione
+street_music,9,Street music,/m/02rtx,associazione_diretta
+street_music,9,Music,/m/04rlf,associazione_per_esclusione
+street_music,9,Musical instrument,/m/04szw,associazione_per_esclusione
+street_music,9,Music,/m/04rlf,associazione_per_esclusione
+street_music,9,"Burst, pop"/m/07qsvvw,associazione_per_similitudine
+street_music,9,Musical instrument,/m/04szw,associazione_per_esclusione
+street_music,9,Plucked string instrument,/m/0fx80y,associazione_per_esclusione
+street_music,9,Guitar,/m/0342h,associazione_per_esclusione
+street_music,9,Electric guitar,/m/02sgy,associazione_per_esclusione
+street_music,9,Bass guitar,/m/018vs,associazione_per_esclusione
+street_music,9,Acoustic guitar,/m/042v_gx,associazione_per_esclusione
+street_music,9,Steel guitar, slide guitar,/m/06w87,associazione_per_esclusione
+street_music,9,Tapping (guitar technique),/m/01glhc,associazione_per_esclusione
+street_music,9,Strum,/m/07s0s5r,associazione_per_esclusione
+street_music,9,Banjo,/m/018j2,associazione_per_esclusione
+street_music,9,Sitar,/m/0jtg0,associazione_per_esclusione
+street_music,9,Mandolin,/m/04rzd,associazione_per_esclusione
+street_music,9,Zither,/m/01bns_,associazione_per_esclusione
+street_music,9,Ukulele,/m/07xzm,associazione_per_esclusione
+street_music,9,Keyboard (musical),/m/05148p4,associazione_per_esclusione
+street_music,9,Piano,/m/05r5c,associazione_per_esclusione
+street_music,9,Electric piano,/m/01s0ps,associazione_per_esclusione
+street_music,9,Organ,/m/013y1f,associazione_per_esclusione
+street_music,9,Electronic organ,/m/03xq_f,associazione_per_esclusione
+street_music,9,Hammond organ,/m/03gvt,associazione_per_esclusione
+street_music,9,Synthesizer,/m/0l14qv,associazione_per_esclusione
+street_music,9,Sampler,/m/01v1d8,associazione_per_esclusione
+street_music,9,Harpsichord,/m/03q5t,associazione_per_esclusione
+street_music,9,Percussion,/m/0l14md,associazione_per_esclusione
+street_music,9,Drum kit,/m/02hnl,associazione_per_esclusione
+street_music,9,Drum machine,/m/0cfdd,associazione_per_esclusione
+street_music,9,Drum,/m/026t6,associazione_per_esclusione
+street_music,9,Snare drum,/m/06rvn,associazione_per_esclusione
+street_music,9,Rimshot,/m/03t3fj,associazione_per_esclusione
+street_music,9,Drum roll,/m/02k_mr,associazione_per_esclusione
+street_music,9,Bass drum,/m/0bm02,associazione_per_esclusione
+street_music,9,Timpani,/m/011k_j,associazione_per_esclusione
+street_music,9,Tabla,/m/01p970,associazione_per_esclusione
+street_music,9,Cymbal,/m/01qbl,associazione_per_esclusione
+street_music,9,Hi-hat,/m/03qtq,associazione_per_esclusione
+street_music,9,Wood block,/m/01sm1g,associazione_per_esclusione
+street_music,9,Tambourine,/m/07brj,associazione_per_esclusione
+street_music,9,Rattle (instrument),/m/05r5wn,associazione_per_esclusione
+street_music,9,Maraca,/m/0xzly,associazione_per_esclusione
+street_music,9,Gong,/m/0mbct,associazione_per_esclusione
+street_music,9,Tubular bells,/m/016622,associazione_per_esclusione
+street_music,9,Mallet percussion,/m/0j45pbj,associazione_per_esclusione
+street_music,9,Marimba, xylophone,/m/0dwsp,associazione_per_esclusione
+street_music,9,Glockenspiel,/m/0dwtp,associazione_per_esclusione
+street_music,9,Vibraphone,/m/0dwt5,associazione_per_esclusione
+street_music,9,Steelpan,/m/0l156b,associazione_per_esclusione
+street_music,9,Orchestra,/m/05pd6,associazione_per_esclusione
+street_music,9,Brass instrument,/m/01kcd,associazione_per_esclusione
+street_music,9,French horn,/m/0319l,associazione_per_esclusione
+street_music,9,Trumpet,/m/07gql,associazione_per_esclusione
+street_music,9,Trombone,/m/07c6l,associazione_per_esclusione
+street_music,9,Bowed string instrument,/m/0l14_3,associazione_per_esclusione
+street_music,9,String section,/m/02qmj0d,associazione_per_esclusione
+street_music,9,Violin, fiddle,/m/07y_7,associazione_per_esclusione
+street_music,9,Pizzicato,/m/0d8_n,associazione_per_esclusione
+street_music,9,Cello,/m/01xqw,associazione_per_esclusione
+street_music,9,Double bass,/m/02fsn,associazione_per_esclusione
+street_music,9,Wind instrument, woodwind instrument,/m/085jw,associazione_per_esclusione
+street_music,9,Flute,/m/0l14j_,associazione_per_esclusione
+street_music,9,Saxophone,/m/06ncr,associazione_per_esclusione
+street_music,9,Clarinet,/m/01wy6,associazione_per_esclusione
+street_music,9,Harp,/m/03m5k,associazione_per_esclusione
+street_music,9,Bell,/m/0395lw,associazione_per_esclusione
+street_music,9,Church bell,/m/03w41f,associazione_per_esclusione
+street_music,9,Jingle bell,/m/027m70_,associazione_per_esclusione
+street_music,9,Bicycle bell,/m/0gy1t2s,associazione_per_esclusione
+street_music,9,Tuning fork,/m/07n_g,associazione_per_esclusione
+street_music,9,Chime,/m/0f8s22,associazione_per_esclusione
+street_music,9,Wind chime,/m/026fgl,associazione_per_esclusione
+street_music,9,Change ringing (campanology),/m/0150b9,associazione_per_esclusione
+street_music,9,Harmonica,/m/03qjg,associazione_per_esclusione
+street_music,9,Accordion,/m/0mkg,associazione_per_esclusione
+street_music,9,Bagpipes,/m/0192l,associazione_per_esclusione
+street_music,9,Didgeridoo,/m/02bxd,associazione_per_esclusione
+street_music,9,Shofar,/m/0l14l2,associazione_per_esclusione
+street_music,9,Theremin,/m/07kc_,associazione_per_esclusione
+street_music,9,Singing bowl,/m/0l14t7,associazione_per_esclusione
+street_music,9,Scratching (performance technique),/m/01hgjl,associazione_per_esclusione
+street_music,9,Pop music,/m/064t9,associazione_per_esclusione
+street_music,9,Hip hop music,/m/0glt670,associazione_per_esclusione
+street_music,9,Beatboxing,/m/02cz_7,associazione_per_esclusione
+street_music,9,Rock music,/m/06by7,associazione_per_esclusione
+street_music,9,Heavy metal,/m/03lty,associazione_per_esclusione
+street_music,9,Punk rock,/m/05r6t,associazione_per_esclusione
+street_music,9,Grunge,/m/0dls3,associazione_per_esclusione
+street_music,9,Progressive rock,/m/0dl5d,associazione_per_esclusione
+street_music,9,Rock and roll,/m/07sbbz2,associazione_per_esclusione
+street_music,9,Psychedelic rock,/m/05w3f,associazione_per_esclusione
+street_music,9,Rhythm and blues,/m/06j6l,associazione_per_esclusione
+street_music,9,Soul music,/m/0gywn,associazione_per_esclusione
+street_music,9,Reggae,/m/06cqb,associazione_per_esclusione
+street_music,9,Country,/m/01lyv,associazione_per_esclusione
+street_music,9,Swing music,/m/015y_n,associazione_per_esclusione
+street_music,9,Bluegrass,/m/0gg8l,associazione_per_esclusione
+street_music,9,Funk,/m/02x8m,associazione_per_esclusione
+street_music,9,Folk music,/m/02w4v,associazione_per_esclusione
+street_music,9,Middle Eastern music,/m/06j64v,associazione_per_esclusione
+street_music,9,Jazz,/m/03_d0,associazione_per_esclusione
+street_music,9,Disco,/m/026z9,associazione_per_esclusione
+street_music,9,Classical music,/m/0ggq0m,associazione_per_esclusione
+street_music,9,Opera,/m/05lls,associazione_per_esclusione
+street_music,9,Electronic music,/m/02lkt,associazione_per_esclusione
+street_music,9,House music,/m/03mb9,associazione_per_esclusione
+street_music,9,Techno,/m/07gxw,associazione_per_esclusione
+street_music,9,Dubstep,/m/07s72n,associazione_per_esclusione
+street_music,9,Drum and bass,/m/0283d,associazione_per_esclusione
+street_music,9,Electronica,/m/0m0jc,associazione_per_esclusione
+street_music,9,Electronic dance music,/m/08cyft,associazione_per_esclusione
+street_music,9,Ambient music,/m/0fd3y,associazione_per_esclusione
+street_music,9,Trance music,/m/07lnk,associazione_per_esclusione
+street_music,9,Music of Latin America,/m/0g293,associazione_per_esclusione
+street_music,9,Salsa music,/m/0ln16,associazione_per_esclusione
+street_music,9,Flamenco,/m/0326g,associazione_per_esclusione
+street_music,9,Blues,/m/0155w,associazione_per_esclusione
+street_music,9,Music for children,/m/05fw6t,associazione_per_esclusione
+street_music,9,New-age music,/m/02v2lh,associazione_per_esclusione
+street_music,9,Vocal music,/m/0y4f8,associazione_per_esclusione
+street_music,9,A capella,/m/0z9c,associazione_per_esclusione
+street_music,9,Music of Africa,/m/0164x2,associazione_per_esclusione
+street_music,9,Afrobeat,/m/0145m,associazione_per_esclusione
+street_music,9,Christian music,/m/02mscn,associazione_per_esclusione
+street_music,9,Gospel music,/m/016cjb,associazione_per_esclusione
+street_music,9,Music of Asia,/m/028sqc,associazione_per_esclusione
+street_music,9,Carnatic music,/m/015vgc,associazione_per_esclusione
+street_music,9,Music of Bollywood,/m/0dq0md,associazione_per_esclusione
+street_music,9,Ska,/m/06rqw,associazione_per_esclusione
+street_music,9,Traditional music,/m/02p0sh1,associazione_per_esclusione
+street_music,9,Independent music,/m/05rwpb,associazione_per_esclusione
+street_music,9,Song,/m/074ft,associazione_per_esclusione
+street_music,9,Background music,/m/025td0t,associazione_per_esclusione
+street_music,9,Theme music,/m/02cjck,associazione_per_esclusione
+street_music,9,Jingle (music),/m/03r5q_,associazione_per_esclusione
+street_music,9,Soundtrack music,/m/0l14gg,associazione_per_esclusione
+street_music,9,Lullaby,/m/07pkxdp,associazione_per_esclusione
+street_music,9,Video game music,/m/01z7dr,associazione_per_esclusione
+street_music,9,Christmas music,/m/0140xf,associazione_per_esclusione
+street_music,9,Dance music,/m/0ggx5q,associazione_per_esclusione
+street_music,9,Wedding music,/m/04wptg,associazione_per_esclusione
+street_music,9,Happy music,/t/dd00031,associazione_per_esclusione
+street_music,9,Sad music,/t/dd00033,associazione_per_esclusione
+street_music,9,Tender music,/t/dd00034,associazione_per_esclusione
+street_music,9,Exciting music,/t/dd00035,associazione_per_esclusione
+street_music,9,Angry music,/t/dd00036,associazione_per_esclusione
+street_music,9,Scary music,/t/dd00037,associazione_per_esclusione
+

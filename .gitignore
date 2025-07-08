@@ -9,3 +9,4 @@ venv/
 UrbanSound8K/
 *.h5
 *.ckpt
+dati/risultati_analisi.csv

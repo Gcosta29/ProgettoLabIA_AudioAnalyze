@@ -3,7 +3,10 @@ version: '3.8'
 services:
   yamnet-analyzer:
     build: ./yamnet_model
+    stdin_open: true
+    tty: true
     volumes:
-      - ./UrbanSound8K:/app/UrbanSound8K  # monta i file audio come cartella
+      - ./UrbanSound8K:/app/UrbanSound8K               # dati in input
+      - ./dati:/app/output                             # directory di output
     environment:
-      - PYTHONUNBUFFERED=1    #dice a Python di non bufferizzare l’output
+      - PYTHONUNBUFFERED=1
