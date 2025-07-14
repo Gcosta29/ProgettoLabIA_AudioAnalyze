@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 MULTICLASS = 3
 AUDIO_FOLDER = "/app/UrbanSound8K"  #Volume montato dal docker_compose
-ANALYSIS = 0 #Per il Debug = per saltare la fase di analisi audio
+ANALYSIS = 1 #Per il Debug = per saltare la fase di analisi audio
 MIN_DURATION_SECONDS = 0.0  # audio più brevi di MIN_DURATION_SECONDS secondi verranno ignorati
 THRESHOLD = 0.3
 yamnet_model = hub.load('https://tfhub.dev/google/yamnet/1')
