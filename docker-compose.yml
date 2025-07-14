@@ -1,12 +1,23 @@
 version: '3.8'
 
 services:
-  yamnet-analyzer:
-    build: ./yamnet_model
+  batch_runner:
+    build: .
     stdin_open: true
     tty: true
+    command: ["python", "run_batch.py"]
     volumes:
-      - ./UrbanSound8K:/app/UrbanSound8K               # dati in input
-      - ./dati:/app/output                             # directory di output
+      - ./UrbanSound8K:/app/UrbanSound8K
+      - ./dati:/app/output
+    environment:
+      - PYTHONUNBUFFERED=1
+
+  webapp:
+    build: .
+    command: ["python", "run_web.py"]
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./dati:/app/output
     environment:
       - PYTHONUNBUFFERED=1

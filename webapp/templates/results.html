@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+  <title>Risultati Analisi</title>
+</head>
+<body>
+  <h1>Risultati per {{ audio_file }}</h1>
+  <ul>
+    {% for segment in results %}
+      <li>
+        Segmento {{ segment.segment_index }} ({{ segment.segment_start }}s - {{ segment.segment_end }}s): 
+        <strong>{{ segment.top_labels[0][0] if segment.top_labels }}</strong>
+      </li>
+    {% endfor %}
+  </ul>
+  <a href="{{ url_for('index') }}">Torna alla Home</a>
+</body>
+</html>

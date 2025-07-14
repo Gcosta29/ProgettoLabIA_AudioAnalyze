@@ -1,0 +1,28 @@
+# Dataset e risultati (non servono nell'immagine finale)
+dati/
+UrbanSound8K/
+
+# File temporanei e cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.tmp
+
+# Cartelle virtualenv se esistono
+venv/
+env/
+.venv/
+
+# Git
+.git/
+.gitignore
+
+# IDE/config files
+.vscode/
+*.code-workspace
+*.DS_Store
+
+# File di test locali
+*.log
