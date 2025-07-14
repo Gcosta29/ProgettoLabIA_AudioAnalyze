@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 MULTICLASS = 3
 AUDIO_FOLDER = "/app/UrbanSound8K"  #Volume montato dal docker_compose
-ANALYSIS = 1 #Per il Debug = per saltare la fase di analisi audio
+ANALYSIS = 0 #Per il Debug = per saltare la fase di analisi audio
 MIN_DURATION_SECONDS = 0.0  # audio più brevi di MIN_DURATION_SECONDS secondi verranno ignorati
 THRESHOLD = 0.3
 yamnet_model = hub.load('https://tfhub.dev/google/yamnet/1')
@@ -275,32 +275,9 @@ def run_batch_analysis():
     # 1. Accuracy generale
     acc = accuracy_score(y_true, y_pred)
 
-    # 2. Precision, Recall e F1 per ciascuna classe + support
-    precisions, recalls, f1s, supports = precision_recall_fscore_support(
-        y_true, y_pred,
-        labels=labels_order,
-        average=None,
-        zero_division=0
-    )
-
-    # stampa tabella dettagliata
-    print("Class     Prec     Rec    F1     Support")
-    for lbl, p, r, f, s in zip(labels_order, precisions, recalls, f1s, supports):
-        print(f"{lbl:20}  {p:.2f}  {r:.2f}  {f:.2f}    {s}")
-
-    # 3. Metriche aggregate (macro e weighted)
-    prec_macro, rec_macro, f1_macro, *_ = precision_recall_fscore_support(y_true, y_pred, average='macro', zero_division=0)
-    prec_weighted, rec_weighted, f1_weighted, *_ = precision_recall_fscore_support(y_true, y_pred, average='weighted', zero_division=0)
-
     print(f"\nOverall Accuracy: {acc:.2%}")
-    print(f"Macro‑avg Precision|Recall|F1: {prec_macro:.2f} | {rec_macro:.2f} | {f1_macro:.2f}")
-    print(f"Weighted Precision|Recall|F1: {prec_weighted:.2f} | {rec_weighted:.2f} | {f1_weighted:.2f}")
 
-    if y_true and y_pred:
-        print(classification_report(y_true, y_pred, labels=labels_order, zero_division=0))
-    else:
-       print("Errore: y_true o y_pred sono vuoti.")
-    # 4. Report compatto
+    # 2. Report compatto
     print("\nClassification report:\n", classification_report(y_true, y_pred, labels=labels_order, zero_division=0))
 
     print(f'Totale file analizzati: {total}')
@@ -316,7 +293,7 @@ def run_batch_analysis():
     fig, ax = plt.subplots(figsize=(12, 12))
     disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=labels_order)
     im = disp.plot(include_values=True, cmap='Blues', ax=ax, xticks_rotation=90, values_format=".0f")
-    plt.colorbar(im.im_, ax=ax, label='Percentuale (%)', fraction=0.046, pad=0.04)
+    #plt.colorbar(im.im_, ax=ax, label='Percentuale (%)', fraction=0.046, pad=0.04)
 
     # Forza le etichette manualmente
     ax.set_xticks(np.arange(len(labels_order)))
